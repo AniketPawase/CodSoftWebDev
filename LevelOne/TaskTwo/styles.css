@@ -104,6 +104,10 @@ h3{
     border-radius:30px;
 }
 
+.center-align {
+    text-align: center;
+}
+
 .newsletter form input:last-child{
     position:absolute;
     display:inline-block;
