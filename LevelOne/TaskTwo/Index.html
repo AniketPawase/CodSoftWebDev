@@ -1,28 +1,130 @@
 
 <!DOCTYPE html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
-
-        <!-- Bootstrap CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+   href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+   rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+   integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer" />
+   <title>Landing Page</title>
+ </head>
     <body>
-        <h1 class="text-center">Hello World</h1>
+        <!--- Hero Section Start ---->
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Port<span>lio</span></h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <a href="#" class="btn">Subscribe</a>
+            </nav>
+            <div class="content">
+                <h4>Hello, my Name is</h4>
+                <h1>Aniket <span>Pawase</span></h1>
+                <h3>I'am a Web Developer.</h3>
+                <div class="newsletter">
+                    <form>
+                        <input
+                        type="email"
+                        name="email"
+                        id="mail" placeholder="Enter Your email.."/>
+                        <input
+                        type="submit"
+                        name="submit"
+                        value="Lets Start.."/>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!-----ABout Section start -->
+    <section class="about">
+        <div class="main">
+            <img src="./Images/NewPic.png" alt="newPic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>As a recent graduate from CDAC's Diploma in Advanced Computing (DAC) program, specializing in web development, I bring a fresh perspective and a passion for crafting innovative digital solutions. Equipped with cutting-edge skills in front-end and back-end development, along with a solid foundation in programming languages such as HTML, CSS, JavaScript, and Python, I am ready to embark on my journey as a web developer. My time at CDAC has honed my ability to tackle complex coding challenges and deliver high-quality, user-centric web applications. With a keen eye for detail and a commitment to staying abreast of industry trends, I am eager to contribute to projects that push the boundaries of what's possible on the web.</p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section Statrt -->
+    <div class="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every Website should be built with two primay goals: Firstly, it needs to work across all devices.
+                        Secondly, it needs to be fast as possible.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
 
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Bootstrap JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every Website should be built with two primay goals: Firstly, it needs to work across all devices.
+                        Secondly, it needs to be fast as possible.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every Website should be built with two primay goals: Firstly, it needs to work across all devices.
+                        Secondly, it needs to be fast as possible.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div> 
+    <!-- Contact me -->
+    <div class="contact-me">
+        <p>Let me Get You a Beutiful Website</p>
+        <a class="button-two" href="#">Hire me</a>
+    </div>   
+    
+    <!-- Footer Start -->
+    <footer>
+        <p>Aniket Pawase</p>
+        <p>I am very enthusiastic web developer excited to work on top-technology</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="end">CopyRight By Aniket Pawase</p>
+    </footer>
     </body>
 </html>
